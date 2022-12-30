@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.table{
+    height: 1cm;
+    background-image: linear-gradient(to right,rgb(152, 205, 236),rgb(223, 168, 38));
+    width: 100%;
+    color: black;
+    font-size: 0.6cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text>input{
+    height:0.6;
+    width: 5cm;
+    
+}
+.row1{
+    background-color: rgb(234, 201, 94);
+    height: 0.8cm;
+    font-size: 0.4cm;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+.table2{
+    border-spacing: 20px;
+    width: 100%;
+    margin-top: 0%;
+    background-color:rgb(247, 243, 228);
+    border-radius: 1PX;
+}
+.table2 tr th{
+    width: 40%;
+    
+}
+.table2 th{
+    text-align: right;
+
+}
+.table2 td{
+    width:4cm;
+}
+td button{width:4cm;
+          height:0.7cm;
+          background-color:rgb(236, 110, 68);
+          border-radius: 15px;
+}
+img{
+    background-color: whitesmoke;
+    height: 2cm;
+    width: 100%;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSev25jUA16JFGFh1YL0tTpYljNGpaljbWCQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

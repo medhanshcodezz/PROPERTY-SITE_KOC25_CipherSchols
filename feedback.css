@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.table{
+    height: 1cm;
+    background-image: linear-gradient(to right,rgb(37, 158, 229),rgb(38, 121, 223));
+    width: 100%;
+    color: aliceblue;
+    font-size: 0.6cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text>input{
+    height:0.6;
+    width: 5cm;
+    
+}
+.row1{
+    background-color: rgb(94, 209, 234);
+    height: 0.8cm;
+    font-size: 0.4cm;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+.table2{
+    border-spacing: 20px;
+    width: 100%;
+    margin-top: 0%;
+    background-color:whitesmoke;
+
+   
+}
+.table2 tr th{
+    width: 40%;
+    
+}
+.table2 th{
+    text-align: right;
+
+}
+.table2 td{
+    width:4cm;
+}
+td button{width:4cm;
+          height:0.7cm;
+          background-color:rgb(236, 110, 68);
+          border-radius: 15px;
+}
+img{
+    background-color: whitesmoke;
+    height: 2cm;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+.intro{
+    display: flex;
+    
+    justify-content:space-around;
+    width: 100%;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.point{
+    width: 35%;
+}
+.h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para{
+    flex-wrap: wrap;
+}
+body{
+    background-image:linear-gradient(to right,rgb(233, 208, 241),rgb(232, 162, 240));
+}

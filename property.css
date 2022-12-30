@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-image:linear-gradient(to right,rgb(225, 230, 70),rgb(74, 237, 226),rgb(225, 230, 70));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.options{
+    transition: all 1s;    
+    border: none;
+   background-color: whitesmoke;
+    font-size: 0.5cm;
+    cursor: pointer;
+
+}
+.options:hover{
+    border-bottom: 2px solid red;
+}
+
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+.row{
+    background-color: coral;
+}
+.table_1{
+    background-color:whitesmoke;
+}
+.table_2{
+background-color: white;
+    }
+.button{
+    height: 1cm;
+    width:5cm;
+}
+.img_1{
+    height: 60px;
+}
+.photo{
+    display: inline-block;
+    height: 300px; 
+    margin-left: 17px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.163);
+    width:31.49%;
+    border: none;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.price_1{
+    background-color: white;
+}
+.photo_2{
+    display: inline-block;
+    height: 300px; 
+    margin-left: 17px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.163);
+    width:31.49%;
+    border: none;
+    background-color: white;
+}
+.second{
+    transition:all 1s;    
+    border:none;
+    background-color: white;
+    font-size:0.5cm;
+    cursor: pointer;
+
+}
+.second:hover{
+    border-bottom: 2px solid red;
+}
+body{
+    background-color: white;
+}
